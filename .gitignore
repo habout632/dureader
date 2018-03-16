@@ -10,3 +10,4 @@ rouge_metric
 add_copyright.py
 copyright
 .DS_Store
+data/
