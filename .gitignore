@@ -4,12 +4,12 @@ raw/
 *.pyc
 vocab.search
 local
-bleu_metric
-rouge_metric
 .idea/
 add_copyright.py
 copyright
 .DS_Store
-data/
+demo/
+results/
+summary/
+vacab/
 paddle/
-!data/download.sh
