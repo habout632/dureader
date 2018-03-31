@@ -539,8 +539,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('pred_file', help='predict file')
     parser.add_argument('ref_file', help='reference file')
-    parser.add_argument('task',
-            help='task name: Main|Yes_No|All|Entity|Description')
+    parser.add_argument('task', help='task name: Main|Yes_No|All|Entity|Description')
 
     args = parser.parse_args()
     args.task = args.task.lower().replace('_', '')

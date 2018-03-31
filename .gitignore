@@ -11,3 +11,4 @@ add_copyright.py
 copyright
 .DS_Store
 data/
+paddle/
