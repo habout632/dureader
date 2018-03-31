@@ -12,3 +12,4 @@ copyright
 .DS_Store
 data/
 paddle/
+!data/download.sh
