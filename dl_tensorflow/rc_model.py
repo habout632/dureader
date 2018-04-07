@@ -292,6 +292,7 @@ class RCModel(object):
         pred_answers, ref_answers = [], []
         total_loss, total_num = 0, 0
         for b_itx, batch in enumerate(eval_batches):
+            self.logger.info('Predicting the {} th  answer for test set'.format(b_itx))
             feed_dict = {self.p: batch['passage_token_ids'],
                          self.q: batch['question_token_ids'],
                          self.p_length: batch['passage_length'],
