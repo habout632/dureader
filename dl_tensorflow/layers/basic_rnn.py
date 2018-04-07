@@ -89,5 +89,3 @@ def get_cell(rnn_type, hidden_size, layer_num=1, dropout_keep_prob=None):
     if layer_num > 1:
         cell = tc.rnn.MultiRNNCell([cell]*layer_num, state_is_tuple=True)
     return cell
-
-
